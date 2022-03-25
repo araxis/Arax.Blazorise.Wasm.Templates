@@ -1,0 +1,54 @@
+﻿@inherits LayoutComponentBase
+
+<Layout Sider>
+    <LayoutSider>
+        <LayoutSiderContent>
+            <Bar @ref="@_sidebar" Mode="BarMode.VerticalInline" Shadow="Shadow.Small"
+                 Breakpoint="Breakpoint.Desktop"
+                 Background="Background.Light"
+                 ThemeContrast="ThemeContrast.Light">
+                <BarBrand>
+                    <BarItem>
+                        <BarLink To="#">
+                            <BarIcon IconName="IconName.Dashboard" />
+                            Blazorise Demo
+                        </BarLink>
+                    </BarItem>
+                </BarBrand>
+                <BarStart>
+
+                    <BarItem>
+                        <BarLink To="">Home</BarLink>
+                    </BarItem>
+                    <BarItem>
+                        <BarLink To="counter">Counter</BarLink>
+                    </BarItem>
+                    <BarItem>
+                        <BarLink To="fetchdata">Fetch data</BarLink>
+                    </BarItem>
+
+                </BarStart>
+            </Bar>
+        </LayoutSiderContent>
+    </LayoutSider>
+    <Layout>
+        <LayoutHeader Fixed>
+            <Bar Mode="BarMode.Horizontal"
+                 Background="Background.Light"
+                 ThemeContrast="ThemeContrast.Light" Alignment="Alignment.Start">
+
+                <BarToggler Border="Border.Is0" Bar="@_sidebar"/>
+                <BarBrand>
+                    Arax
+                </BarBrand>
+            </Bar>
+        </LayoutHeader>
+        <LayoutContent Padding="Padding.Is1">
+            @Body
+        </LayoutContent>
+    </Layout>
+</Layout>
+
+@code {
+    private Bar _sidebar;
+}
