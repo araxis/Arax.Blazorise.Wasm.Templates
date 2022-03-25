@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Arax.Blazorise.Material.Wizard")]
+[assembly: AssemblyTitle("Arax.Blazorise.Templates.Wizard")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Arax.Blazorise.Material.Wizard")]
+[assembly: AssemblyProduct("Arax.Blazorise.Templates.Wizard")]
 [assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

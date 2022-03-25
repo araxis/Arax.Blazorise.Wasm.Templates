@@ -6,7 +6,7 @@
         <Description xml:space="preserve">Ready to use blazorise project templates.
 Includes Bootstrap 4, Bootstrap 5, Material, AntDesign, and Bulma.</Description>
         <Icon>logo_Arax.png</Icon>
-        <PreviewImage>1.png</PreviewImage>
+        <PreviewImage>blazoriseTemplates.png</PreviewImage>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
