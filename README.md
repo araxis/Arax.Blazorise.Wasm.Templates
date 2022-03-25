@@ -1,7 +1,7 @@
 # Arax Blazorise Templates
 
 Ready to use [Blazorise](http://blazorise.com/) project templates.  
-Includes bootstrap 4, bootstrap 5,material,and design, bulma.
+Includes Bootstrap 4, Bootstrap 5,Material,AntDesign, Bulma.
 
 **Installing :** [**Arax Blazorise WASM**](https://marketplace.visualstudio.com/items?itemName=meisamalifallahi.AraxBlazoriseWASM)
 
