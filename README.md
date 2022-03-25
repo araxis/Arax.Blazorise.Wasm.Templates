@@ -7,8 +7,8 @@ Includes bootstrap 4, bootstrap 5,material,and design, bulma.
 
 Configured Items:
 
-*   Bootstrap5
-*   Font Awesome Icons
+*   CSS Framework
+*   Icons
 *   External Bar (controlled by Top Bar)
 *   Message service
 *   Notification service
