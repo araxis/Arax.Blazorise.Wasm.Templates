@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaterialApp", "MaterialApp\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arax.Blazorise.Templates.Wizard", "Arax.Blazorise.Templates.Wizard\Arax.Blazorise.Templates.Wizard.csproj", "{C386CA14-62B8-4034-9E20-6601A37943E6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WASM", "WASM", "{F2E10AF5-B134-44C8-831B-C14A93029BF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -74,6 +76,14 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7140A33C-1456-475F-A849-60863EEF967D} = {F2E10AF5-B134-44C8-831B-C14A93029BF5}
+		{66C6C02D-86AE-4700-BB15-DC79420B9282} = {F2E10AF5-B134-44C8-831B-C14A93029BF5}
+		{911EE796-E08B-4A03-A83F-685460EF40CC} = {F2E10AF5-B134-44C8-831B-C14A93029BF5}
+		{1C73345B-064E-4B5D-BDA4-C5BFE2FD2170} = {F2E10AF5-B134-44C8-831B-C14A93029BF5}
+		{5645AF18-F5EB-4413-8D1A-DC0A6A7051B3} = {F2E10AF5-B134-44C8-831B-C14A93029BF5}
+		{C386CA14-62B8-4034-9E20-6601A37943E6} = {F2E10AF5-B134-44C8-831B-C14A93029BF5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0FB9F530-D66A-493B-86AE-1969A28AB580}
