@@ -19,6 +19,10 @@
 @code{
     private readonly Theme _theme = new Theme
     {
-    // theme settings
+       ColorOptions = new()
+            {
+                Primary = "#303F9F",
+                Secondary = "#FF6E01"
+            },
     };
 }
