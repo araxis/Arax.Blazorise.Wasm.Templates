@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="Arax.Blazorise.WASM" Version="1.3" Language="en-US" Publisher="meisam alifallahi" />
+        <Identity Id="Arax.Blazorise.WASM" Version="1.5" Language="en-US" Publisher="meisam alifallahi" />
         <DisplayName>Arax Blazorise WASM</DisplayName>
         <Description xml:space="preserve">Ready to use blazorise project templates.
 Includes Bootstrap 4, Bootstrap 5, Material, AntDesign, and Bulma.</Description>
