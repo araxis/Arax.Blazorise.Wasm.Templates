@@ -13,6 +13,7 @@ Configured Items:
 *   Message service
 *   Notification service
 *   Page Progress service
+*   DataGrid
 
 ![](https://user-images.githubusercontent.com/1418779/160920717-12c8efc5-4305-4672-a58c-bdee76ffead7.png)
 
