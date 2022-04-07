@@ -20,21 +20,32 @@
 </head>
 
 <body>
-<div id="app">Loading...</div>
-
-<div id="blazor-error-ui">
-    An unhandled error has occurred.
-    <a href="" class="reload">Reload</a>
-    <a class="dismiss">🗙</a>
+<div id="app">
+    <div style="position: absolute; top: 30vh; width: 100%; text-align: center">
+        <div style="display: flex; gap: 10px; justify-content: center; align-items: center">
+            <image src="images/logo2.png" style="width: 128px; height: 128px;" />
+        </div>
+        <h1>Blazorise ExComponents Docs</h1>
+        <div style="display: flex; gap: 10px; justify-content: center; align-items: center">
+            <div class="spinner-border" role="status"></div>
+            The application is loading...
+        </div>
+    </div>
 </div>
-<!-- jQuery first, then Popper.js, then Material JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="js/material.min.js"></script>
 
-<script src="_framework/blazor.webassembly.js"></script>
-<script src="_content/Blazorise.Material/blazorise.material.js"></script>
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+    <!-- jQuery first, then Popper.js, then Material JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="js/material.min.js"></script>
+
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script src="_content/Blazorise.Material/blazorise.material.js"></script>
 </body>
 
 </html>
